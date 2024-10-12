@@ -1,0 +1,82 @@
+{
+  "orders": [
+    {
+      "id": "O001",
+      "customerName": "John Doe",
+      "orderDate": "2023-10-01",
+      "status": "Delivered",
+      "totalAmount": 250,
+      "items": [
+        {
+          "itemName": "Laptop",
+          "quantity": 1,
+          "price": 200
+        },
+        {
+          "itemName": "Mouse",
+          "quantity": 1,
+          "price": 50
+        }
+      ],
+      "shippingAddress": "123 Main St, Springfield"
+    },
+    {
+      "id": "O002",
+      "customerName": "Jane Smith",
+      "orderDate": "2023-10-05",
+      "status": "Pending",
+      "totalAmount": 150,
+      "items": [
+        {
+          "itemName": "Headphones",
+          "quantity": 1,
+          "price": 100
+        },
+        {
+          "itemName": "Phone Case",
+          "quantity": 2,
+          "price": 25
+        }
+      ],
+      "shippingAddress": "456 Elm St, Springfield"
+    },
+    {
+      "id": "O003",
+      "customerName": "Alice Johnson",
+      "orderDate": "2023-10-07",
+      "status": "Cancelled",
+      "totalAmount": 300,
+      "items": [
+        {
+          "itemName": "Tablet",
+          "quantity": 1,
+          "price": 300
+        }
+      ],
+      "shippingAddress": "789 Maple St, Springfield"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "username": "Eslam",
+      "email": "eslam@example.com",
+      "role": "Admin",
+      "isActive": true
+    },
+    {
+      "id": "U002",
+      "username": "janesmi",
+      "email": "jane@example.com",
+      "role": "User",
+      "isActive": true
+    },
+    {
+      "id": "U003",
+      "username": "Salsabeel",
+      "email": "salsa@example.com",
+      "role": "Guest",
+      "isActive": false
+    }
+  ]
+}

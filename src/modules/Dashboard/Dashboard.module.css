@@ -1,0 +1,12 @@
+.tab {
+  overflow: hidden;
+  &[data-active] {
+    color:#228be6;
+    font-weight: 600;
+    background-color: #f9f9f9 !important;
+  }
+}
+
+.panel {
+  overflow: scroll;
+}
